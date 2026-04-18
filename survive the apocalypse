@@ -3820,10 +3820,10 @@ SaveManager:LoadAutoloadConfig()
 -- ============================================
 -- INIT NOTIFICATION
 -- ============================================
-Library:Notify({ Title = "SPYMM v8.2", Description = "Loaded! Gun|Melee|Medical|Armor|Food|Resources\nRight Shift = toggle menu.", Time = 5 })
+Library:Notify({ Title = "SARHUB Serves", Description = "Loaded! Gun|Melee|Medical|Armor|Food|Resources\nRight Shift = toggle menu.", Time = 5 })
 
 local espCounts = { Gun="Red", Melee="Orange", Medical="Green", Armor="Blue", Food="Lime", Resource="Silver" }
-print("SPYMM v8.2 loaded | " .. #itemNames .. " items tracked | Right Shift = menu")
+print("SARHUB | SARpastes loaded | " .. #itemNames .. " items tracked | Right Shift = menu")
 for cat, col in pairs(espCounts) do
     print(string.format("  %s ESP (%s) - %d items", cat, col, #espSystems[cat].items))
 end
