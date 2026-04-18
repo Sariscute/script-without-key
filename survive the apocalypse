@@ -3736,8 +3736,8 @@ Library:OnUnload(function()
     -- Stop Anti-AFK
     stopAntiAFK()
 
-    Library:Notify({ Title = "SPYMM", Description = "Unloaded. Bye!", Time = 3 })
-    print("SPYMM v8.2 unloaded.")
+    Library:Notify({ Title = "SARHUB | SARpastes", Description = "Unloaded. Bye!", Time = 3 })
+    print("SARHUB SERVICES unloaded.")
 end)
 
 -- ============================================
